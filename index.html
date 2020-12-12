@@ -3,57 +3,68 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./all.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="./styles.css" />
     <title>Greenpie</title>
   </head>
   <body>
     <header>
       <nav class="nav"><i class="fas fa-bars"></i></nav>
-      <div class="search">
-        <input type="search" name="Search" id="search" /><span
-          ><i class="fas fa-search"></i
-        ></span>
-      </div>
-      <div class="search-filter">
-        <span>Search By:</span>
-        <select class="select">
-          <option value="name" selected>Name</option>
-          <option value="alphabet">Alphabet</option>
-          <option value="main-ingredient">Main Ingredient</option>
-        </select>
-      </div>
+      <h3>Greenpie</h3>
     </header>
     <section class="inner">
       <aside class="nav-menu">
-        <div class="single-menu">
+        <!-- <div class="single-menu">
           <h5>Favorites</h5>
-        </div>
-        <div class="single-menu">
+        </div> -->
+        <div class="single-menu category">
           <h5>Categories</h5>
           <p>Breakfast</p>
-          <p>Vegetarian</p>
-          <p>Dinner</p>
+          <p>Dessert</p>
           <p>Seafood</p>
+          <p>Side</p>
+          <p>Vegetarian</p>
         </div>
-        <div class="single-menu">
+        <div class="single-menu area">
           <h5>Area</h5>
-          <p>Canadian</p>
-          <p>British</p>
           <p>American</p>
-          <p>Scottish</p>
+          <p>British</p>
+          <p>Canadian</p>
+          <p>Indian</p>
+          <p>Kenyan</p>
         </div>
-        <div class="single-menu">
+        <!-- <div class="single-menu">
           <h5>Ingredients</h5>
           <p>Lobsters</p>
           <p>Carrot</p>
           <p>Chicken</p>
           <p>Beef</p>
-        </div>
+        </div> -->
       </aside>
       <section class="grid-2">
         <main class="main-content">
-          <h3>Loading Recipe By <span id="content-load">Breakfast</span></h3>
+          <p class="info">Click on Any Recipe To Display Its Content</p>
+          <!-- <div class="search-container">
+            <div class="search">
+              <input type="search" name="Search" id="search" /><span
+                ><i class="fas fa-search"></i
+              ></span>
+            </div>
+            <div class="search-filter">
+              <span>Search By:</span>
+              <select class="select">
+                <option value="name" selected>Name</option>
+                <option value="alphabet">Alphabet</option>
+                <option value="main-ingredient">Main Ingredient</option>
+              </select>
+            </div>
+          </div> -->
+          <h3>Loading Recipe By <span class="content-load">Breakfast</span></h3>
           <div class="section main-contents">
             <!-- <div class="recipe">
               <div class="extra" id="123">
