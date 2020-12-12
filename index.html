@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./all.min.css" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Greenpie</title>
+  </head>
+  <body>
+    <header>
+      <nav class="nav"><i class="fas fa-bars"></i></nav>
+      <div class="search">
+        <input type="search" name="Search" id="search" /><span
+          ><i class="fas fa-search"></i
+        ></span>
+      </div>
+      <div class="search-filter">
+        <span>Search By:</span>
+        <select class="select">
+          <option value="name" selected>Name</option>
+          <option value="alphabet">Alphabet</option>
+          <option value="main-ingredient">Main Ingredient</option>
+        </select>
+      </div>
+    </header>
+    <section class="inner">
+      <aside class="nav-menu">
+        <div class="single-menu">
+          <h5>Favorites</h5>
+        </div>
+        <div class="single-menu">
+          <h5>Categories</h5>
+          <p>Breakfast</p>
+          <p>Vegetarian</p>
+          <p>Dinner</p>
+          <p>Seafood</p>
+        </div>
+        <div class="single-menu">
+          <h5>Area</h5>
+          <p>Canadian</p>
+          <p>British</p>
+          <p>American</p>
+          <p>Scottish</p>
+        </div>
+        <div class="single-menu">
+          <h5>Ingredients</h5>
+          <p>Lobsters</p>
+          <p>Carrot</p>
+          <p>Chicken</p>
+          <p>Beef</p>
+        </div>
+      </aside>
+      <section class="grid-2">
+        <main class="main-content">
+          <h3>Loading Recipe By <span id="content-load">Breakfast</span></h3>
+          <div class="section main-contents">
+            <!-- <div class="recipe">
+              <div class="extra" id="123">
+                <i class="far fa-heart to-favorites heart"></i>
+                <img src="./unisex collection.jpg" alt="" class="recipe-img" />
+              </div>
+              <h4 class="recipe-name">Chicken Marsala</h4>
+            </div> -->
+          </div>
+        </main>
+        <aside class="details-content">
+          <div class="details-container">
+            <h3 class="center">Click on Any Recipe To Display Its Content</h3>
+            <!-- <img src="./unisex collection.jpg" alt="" class="content-image" />
+            <p class="close">close</p>
+            <h4 class="content-name">Chicken Marsala</h4>
+            <h5>Procedures:</h5>
+            <p class="content-description"></p> -->
+            <!-- <div class="tags">
+              <p class="tags-content">Carrot</p>
+              <p class="tags-content">Egg</p>
+              <p class="tags-content">Chicken</p>
+              <p class="tags-content">Carrot</p>
+              <p class="tags-content">Egg</p>
+            </div> -->
+          </div>
+        </aside>
+      </section>
+    </section>
+
+    <footer>
+      <p>&copy; Greenpie 2020</p>
+      <div class="social">
+        <i class="fab fa-facebook" id="facebook"></i>
+        <i class="fab fa-twitter" id="twitter"></i>
+        <i class="fab fa-instagram" id="instagram"></i>
+        <i class="fab fa-youtube" id="youtube"></i>
+      </div>
+    </footer>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.0/axios.min.js"
+      integrity="sha512-DZqqY3PiOvTP9HkjIWgjO6ouCbq+dxqWoJZ/Q+zPYNHmlnI2dQnbJ5bxAHpAMw+LXRm4D72EIRXzvcHQtE8/VQ=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
